@@ -3,5 +3,3 @@ CREATE TABLE prop_copy2 AS
 SELECT *
 FROM prop_copy
 WHERE RTRCN_DAY IS NULL;
-
-SELECT COUNT(*) FROM prop_copy2;
