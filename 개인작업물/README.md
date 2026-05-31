@@ -32,15 +32,15 @@
 
 | 컬럼명 | 설명 |
 |---|---|
-| `RCPT_YR` | 매물 접수 연도 |
+| `RCPT_YR` | 부동산 매물 접수 연도 |
 | `CGG_NM` | 자치구명 |
 | `STDG_NM` | 법정동명 |
 | `BLDG_NM` | 건물명 |
-| `CTRT_MONTH` | 계약월 (YYYY-MM) |
-| `CTRT_QUARTER` | 계약분기 (YYYY-QN) |
+| `CTRT_MONTH` | 계약한 연월 (YYYY-MM) |
+| `CTRT_QUARTER` | 계약한 시기 (YYYY-QN) |
 | `THING_AMT` | 매매가 (만원) |
 | `FLR` | 층 |
-| `BLDG_USG` | 건물용도 (아파트 / 연립다세대 / 오피스텔 등) |
+| `BLDG_USG` | 건물용도 (아파트 / 연립다세대 / 오피스텔 / 단독다가구) |
 | `BD_AGE` | 건물연식 (년) |
 | `K_SQ` | 면적 (평) |
 | `PRICE_PER_KSQ` | 평당가 (만원/평) |
@@ -129,4 +129,4 @@ SOURCE 05_persona3.sql;
 
 ## 데이터 출처
 
-- 서울 열린데이터광장 — 서울시 부동산 실거래가 정보
+- [서울 열린데이터광장 — 서울시 부동산 실거래가 정보](https://data.seoul.go.kr/dataList/OA-21275/S/1/datasetView.do)
