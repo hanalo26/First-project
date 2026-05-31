@@ -3,3 +3,9 @@
 
 # PDF 파일
 *.pdf
+
+# 이미지 파일
+*.jpg
+*.jpeg
+*.png
+*.gif
